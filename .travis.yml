@@ -18,7 +18,7 @@ deploy:
   provider: pages
   skip_cleanup: true
   keep-history: true
-  github-token: $GITHUG_TOKEN
+  github-token: $GITHUB_TOKEN
   local_dir: dist/
   target-branch: gh-pages
   commit: "Travis deploy"
