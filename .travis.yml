@@ -15,6 +15,8 @@ script:
   - yarn build
 
 notifications:
+  slack:
+    secure: "e8pU2O4Uz52kr1lvAomVkhUvuGdqA22xyP2B40//mXLx/edzhGY5o7o8SG0S//83I23QA2UvbWSa6DzadTtU2uuumWrT4A38ZpD5WZp6fdz9zY6arjfuPR3HLKlhF0lKiXsIVBrEkSqSkcbq2C0YgqNUbkIaQtnS/TYonzPJ3k5lM+9BSXqAqu4LUKbxYBjhHR/7DMiksuTvEPm+fZ1nCTp6hgeBR18L+i+o78InlfLrWKehiVLPwd8HXHQEpqf/fRa1vsMnzSDuavMx8NlMhvtskGrMZRKXnfV2jJrFs+Z2NSshbCc37CbHBQ5jaLK2lzQ1il9Dj5bQKH5UzADtQC8+avnXlwPgmoaUEKZyhhOEdMGkJ2E+4BmfjHeB8bGBxYDpgd5IiQ+Sak1BsvSI7o5cl0WgAnbW51soGOwT10sm11rbSYC4Hf+wkWx4JnnzTVWx+8BUTtPMAxt6WxJnAK79RAQ9G/RIrX838+S6RWB6H6wEGIjtHYljHmR4GN7o8V5SvH3wPwEMRQjNKG1wn4TGAwEzYJFjFKbEiXKpoWJv9xWGoTGW39uWx2f4GPptKnD5SrsUkTjB5BiR+IJ1PXI+pHbWJnyBVc3ud14OpQbeMbrYsmmrCTWullXXNrxdgPxZHwl3TjkwOM21NAf2rRrzX5HtaX41yC+WnBGFOIw="
   email:
     recipients:
       - acortez.dev@gmail.com
